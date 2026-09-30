@@ -268,7 +268,8 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
-|Receta adaptada|significa encontrar recetas adecuadas al perfil|3. Recetas y gestión de la dieta|
+|Receta adaptada|significa encontrar recetas adecuadas al perfil|[3. Recetas y gestión de la dieta](https://github.com/Glaucetas/ISI_SIMBIOSE/blob/main/docs/captura/acta-captura-requisitos-generales.md#3-recetas-y-gesti%C3%B3n-de-la-dieta:~:text=3.%20Recetas%20y%20gesti%C3%B3n%20de%20la%20dieta)|
+|alcance|El alcance establece los límites de lo que se va a desarrollar: qué objetivos, necesidades y características se incluyen y cuáles quedan fuera.|https://github.com/Glaucetas/ISI_SIMBIOSE/blob/main/docs/vision/vision_y_alcance.md#21-alcance:~:text=limitaciones%20del%20proyecto-,2.1.%20Alcance,-El%20proyecto%20Simbiosis|
 
 ## 10. Modelos de análisis
 
