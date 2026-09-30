@@ -279,7 +279,12 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
-| NFR-08 |NFR-I (Usabilidad y accesibilidad) |La interfaz en su primera versión estará en castellano y gallego| G | -  | Prueba de verificación del correcto uso del idioma. | - |
+| NFR-08 |NFR-I (Compatibilidad y portabilidad ) |La interfaz en su primera versión estará en castellano y gallego, pudiendo cambiar entre ambos| G | -  | Prueba de verificación del correcto uso del idioma. | - |
+| NFR-09 |NFR-Q (Seguridad  ) |Los datos de salud de un paciente serán privados, podrán ser vistos por el propio paciente. | G | -  | Prueba de seguridad de acceso a datos. | - |
+| NFR-10 | NFR-Q (Seguridad) | La plataforma enviará un correo de autenticación cuando un usuario inicie sesión desde un dispositivo desconocido | G | - | - | - |
+ NFR-11 | NFR-Q (Fiabilidad; Disponibilidad) | Tras un incidente grave, la plataforma deberá recuperar sus funciones principales en un máximo de cuatro horas desde la declaración del incidente. | G | - | - | - |
+| NFR-12 | NFR-Q () | Ante un incidente grave, la pérdida de información no podrá superar las 24 horas anteriores al incidente. | G | - | - | - |
+| NFR-13 | NFR-Q (Robustez) | Se realizará una copia de seguridad diaria de la información de salud y recetas. | G | - | - | - |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
