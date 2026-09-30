@@ -268,6 +268,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+|Receta adaptada|significa encontrar recetas adecuadas al perfil|3. Recetas y gestión de la dieta|
 
 ## 10. Modelos de análisis
 
