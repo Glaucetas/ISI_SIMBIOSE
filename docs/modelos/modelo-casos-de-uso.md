@@ -273,25 +273,42 @@ Condición y vincula durante la edición.
 
 ### 6.2 Descripción detallada UC-21 — Buscar recetas
 
-**Identificador y nombre del caso de uso:** [Indica el caso.]
+**Identificador y nombre del caso de uso:** [UC-21 · Buscar recetas]
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** [Localizar una receta que cumpla los criterios del usuario y consultar su detalle ]
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** [usuario registrado, como actor principal]
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** [El usuario dispone de una cuenta activa, el usuario tiene una sesion iniciada, la existencia de recetas coincidentes no es una condicion previa. se compruena al ejecuta la busqueda]
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** [El usuario busca una receta.]
 
-**Escenario principal de éxito:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal de éxito:** [
+1. El usuario solicita buscar recetas.
+2. El sistema permite indicar los criterios de búsqueda.
+3. El usuario selecciona un ingrediente que desea encontrar.
+4. El usuario solicita ejecutar el abusqueda.
+5. El sistema comprueba que los criterios pueden aplicarse.
+6. El sistema obtiene las recetas que cumplen los criterios confirme al acta.
+7. El sistema presenta las vistas previas en el orden establecido en el acta.
+8. El usuario selecciona una receta.
+9. El sistema presenta su detalle.
+10. El caso de uso ginaliza.
+]
 
-**Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Extensiones (flujos alternativos):** [
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+]
 
-**Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
+**Postcondiciones:** [
+Con éxito: el usuario ha confultado los resultados de una búsqueda yu el detalle de una receta seleccionada.
+Sin consultar una receta: el usuario conoce la ausencia de coincidencias o el problema impidio completar la consulta. 
+Esta descripción no incorpora el registro.
+]
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Reglas y NFR pertinentes:** []
+
+**Preguntas abiertas:** []
 
 ## 7 Continuidad entre iteraciones
 
